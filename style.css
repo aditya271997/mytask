@@ -1,0 +1,243 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+	background-color: #1f1f42;
+
+}
+
+.navbar-toggler{
+	color: white;
+}
+.main_header{
+	vertical-align: center;
+	margin-top: 150px;
+}
+
+
+.main{
+	margin-top: 50px;
+}
+.main-title{
+	/* margin: auto;*/
+  width: 60%;
+  
+ padding: 10px;
+}
+.main-subtitle{
+	 /*margin: auto;*/
+  width: 60%;
+  
+ padding: 10px;
+}
+.main_blob{
+	
+}
+.main_blob_img{
+width: 170px;
+}
+
+
+.card {
+	border: none;
+	background-color: #1f1f42;
+	color: white;
+}
+
+/*.card-body{
+	margin-top: 50px;
+}*/
+.main_blob{
+	margin-top: -30px;
+}
+
+
+.submain{
+	color: white;
+}
+.submain p{
+	color:  grey;
+}
+.submain_icon{
+	font-size: 50px;
+	float: left;
+
+}
+
+.testimonial{
+	background-color: white;
+	color: black;
+}
+
+
+
+
+.pricing{
+	background-color: white;
+	color: black;
+}
+
+.client_icon{
+	width: 15%;
+	height: 15%;
+	border-radius: 50px;
+}
+
+
+@media and screen(max-width: 500px){
+	
+		.skills_header{
+	border: none;
+
+}
+
+}
+.skills_header{
+	border: 1px solid grey;
+	padding: 15px;
+}
+.skills_container{
+	row-gap: 0;
+}
+.skills_header{	
+	display: flex;
+	align-items: center;
+	margin-bottom: 2.5rem;
+	cursor:  pointer;
+}
+.skills_icon{
+	font-size: 2rem;
+  margin-right: 0.75rem;
+  color: dodgerblue;
+}
+.skills_title{
+	color: white;
+	font-weight: 500;
+}
+.skills_subtitle{
+	font-size: 13px;
+	color: white;
+}
+
+
+
+.pricing_header{
+	
+	padding: 5px;
+}
+.pricing_container{
+	row-gap: 0;
+}
+.pricing_header{	
+	display: flex;
+	align-items: center;
+	margin-bottom: 2.5rem;
+	cursor:  pointer;
+}
+.pricing_icon{
+	font-size: 2rem;
+  margin-right: 0.75rem;
+  color: dodgerblue;
+}
+.pricing_title{
+	color: dodgerblue;
+	font-weight: 500;
+}
+.pricing_subtitle{
+	font-size: 13px;
+	color: dodgerblue;
+}
+
+
+
+.download_header{
+	border: 1px solid grey;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: white;
+}
+.download_container{
+	row-gap: 0;
+}
+.download_header{	
+	display: flex;
+	align-items: center;
+	margin-bottom: 2.5rem;
+	cursor:  pointer;
+}
+.download_icon{
+	font-size: 2rem;
+  margin-right: 0.75rem;
+  color:#1f1f42 ;
+}
+.download_title{
+	color: #1f1f42;
+	font-weight: 500;
+}
+.download_subtitle{
+	font-size: 13px;
+	color: #1f1f42;
+}
+
+
+
+
+
+.contact{
+	background-color: white;
+}
+.branches{
+	margin-top: 0px;
+}
+.branches h3{
+	color: white;
+	/* margin: auto;
+  width: 60%;
+  
+  padding: 10px;*/
+  margin-top: 60px;
+}
+.branches_icon{
+	height:40%;
+	width: cover;
+}
+
+
+
+.footer{
+   background-color: white;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.footer_content{
+	color: #1f1f42;
+}
+.footer_title{
+  color: white; 
+}
+.footer_icon{
+	font-size: 20px;
+}
+.footer_icon_list li{
+	display: inline-block;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.footer_list{
+	list-style-type: none;
+
+}
+
+
+
+.testi_icon{
+	color: #F59F0E;
+}
+.testi_list{
+	list-style-type: none;
+   margin-left: -50px;
+}
+.testi_list li{
+	display: inline-block;
+}
